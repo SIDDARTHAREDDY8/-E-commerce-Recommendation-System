@@ -93,17 +93,18 @@ libopenblas0
 
 **Provide two CSVs (or start with sample_data/).**
 1. **ratings.csv** (implicit interactions)
-   ```bash
+```bash
  | column      | required | notes                                       |
 | ----------- | -------- | ------------------------------------------- |
 | `user_id`   | ✅        | user identifier                             |
 | `item_id`   | ✅        | product id (`asin` normalized)              |
 | `rating`    | ➕        | implicit strength/quantity (default 1.0)    |
 | `timestamp` | ➕        | ISO/date string (used for train/test split) |
-  ```
+```
 
 2. **items.csv**
-   | column        | required | notes                                      |
+```bash
+| column        | required | notes                                      |
 | ------------- | -------- | ------------------------------------------ |
 | `item_id`     | ✅        | product id                                 |
 | `title`       | ✅        | used in UI and TF-IDF                      |
@@ -112,6 +113,7 @@ libopenblas0
 | `price`       | ➕        | numeric; string cleaned if symbols present |
 | `image_url`   | ➕        | optional; placeholder if missing/invalid   |
 | `product_url` | ➕        | optional; disables “Open” if missing       |
+```
 
 **Column normalization supported**:
 item_id ⇢ asin, asin/isbn · rating ⇢ quantity · timestamp ⇢ order_date, time, reviews.date · price ⇢ purchase price per unit, list price per unit.
