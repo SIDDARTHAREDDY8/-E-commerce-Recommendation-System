@@ -93,12 +93,14 @@ libopenblas0
 
 **Provide two CSVs (or start with sample_data/).**
 1. **ratings.csv** (implicit interactions)
-   | column      | required | notes                                       |
+   ```bash
+ | column      | required | notes                                       |
 | ----------- | -------- | ------------------------------------------- |
 | `user_id`   | ✅        | user identifier                             |
 | `item_id`   | ✅        | product id (`asin` normalized)              |
 | `rating`    | ➕        | implicit strength/quantity (default 1.0)    |
 | `timestamp` | ➕        | ISO/date string (used for train/test split) |
+  ```
 
 2. **items.csv**
    | column        | required | notes                                      |
