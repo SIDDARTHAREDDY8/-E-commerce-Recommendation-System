@@ -189,8 +189,8 @@ See MODEL_CARD.md for full details.
 
 ## 🙌 Acknowledgements
 - ```bash implicit ```
-**scikit-learn, numpy, scipy, pandas**
-**Streamlit**
+- ```bash scikit-learn, numpy, scipy, pandas ```
+- ```bash Streamlit ```
 
 ---
 
