@@ -171,19 +171,19 @@ See MODEL_CARD.md for full details.
 ---
 
 ## 🐛 Troubleshooting
-**“App in the oven” / hangs**: set Python 3.11 (Manage app → Settings), keep packages.txt with OpenBLAS/OpenMP.
-**implicit build errors**: ensure Python 3.11; try libopenblas0 ↔ libopenblas-dev.
-**Duplicate widget IDs**: fixed with unique keys in code.
-**No images/links**: placeholders & disabled buttons handled gracefully.
+- **“App in the oven” / hangs**: set Python 3.11 (Manage app → Settings), keep packages.txt with OpenBLAS/OpenMP.
+- **implicit build errors**: ensure Python 3.11; try libopenblas0 ↔ libopenblas-dev.
+- **Duplicate widget IDs**: fixed with unique keys in code.
+- **No images/links**: placeholders & disabled buttons handled gracefully.
 
 ---
 
 ## 🧭 Roadmap
-Sequential next-item models (GRU4Rec/Transformers)
-Business-aware re-rank (margin/stock/SLA)
-Fairness/exposure & serendipity metrics
-Content embeddings (MiniLM/BERT)
-A/B harness + logging (impressions/clicks)
+- Sequential next-item models (GRU4Rec/Transformers)
+- Business-aware re-rank (margin/stock/SLA)
+- Fairness/exposure & serendipity metrics
+- Content embeddings (MiniLM/BERT)
+- A/B harness + logging (impressions/clicks)
 
 ---
 
