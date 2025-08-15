@@ -131,13 +131,13 @@ Popularity fallback for new/sparse users; content similarity covers new items.
 
 ---
 ## 🧪 Evaluation (Offline)
-**Recall@K** – does top-K include the next item?
-**MAP@K** – rank-aware precision at first hit
-**NDCG@K** – higher if relevant items rank near the top
-**Coverage** – fraction of catalog recommended at least once
-**Diversity** – average (1 − cosine) among recommended items
-**Novelty** – −log(popularity) averaged over recommendations
-Open the 🧪 Evaluate tab (set K & min interactions in the sidebar).
+- **Recall@K** – does top-K include the next item?
+- **MAP@K** – rank-aware precision at first hit
+- **NDCG@K** – higher if relevant items rank near the top
+- **Coverage** – fraction of catalog recommended at least once
+- **Diversity** – average (1 − cosine) among recommended items
+- **Novelty** – −log(popularity) averaged over recommendations
+- **Open the 🧪 Evaluate tab (set K & min interactions in the sidebar).**
 
 ---
 
