@@ -142,30 +142,30 @@ Open the 🧪 Evaluate tab (set K & min interactions in the sidebar).
 ---
 
 ## 🖥️ Using the App
--**🔎 Recommend**
-  -**A product (content)**: pick a title, see similar items + “Similar terms: …”.
-  -**A user (ALS/hybrid)**: pick a user, see blended recs + “Because you viewed: …”.
--**Cards**: image (or placeholder), price, Open, Copy, Add to cart.
--**🛒 Cart** – shows selected items & subtotal.
--**Theme** – Light/Dark toggle (default Light).
--**Sidebar** – tune K, ALS params (factors/reg/iters/alpha, min user/item), MMR λ, hybrid weight.
+- **🔎 Recommend**
+  - **A product (content)**: pick a title, see similar items + “Similar terms: …”.
+  - **A user (ALS/hybrid)**: pick a user, see blended recs + “Because you viewed: …”.
+- **Cards**: image (or placeholder), price, Open, Copy, Add to cart.
+- **🛒 Cart** – shows selected items & subtotal.
+- **Theme** – Light/Dark toggle (default Light).
+- **Sidebar** – tune K, ALS params (factors/reg/iters/alpha, min user/item), MMR λ, hybrid weight.
 
 ---
 
 ## 🧩 Design Choices
--**Implicit ALS** for sparse interaction signals
--**Content model** for explainability & new items
--**MMR** for catalog exploration (less duplication)
--**Popularity fallback** to avoid empty states
--**Modular core (rec_core/*)** for easy swaps (BERT embeddings, rerankers)
+- **Implicit ALS** for sparse interaction signals
+- **Content model** for explainability & new items
+- **MMR** for catalog exploration (less duplication)
+- **Popularity fallback** to avoid empty states
+- **Modular core (rec_core/*)** for easy swaps (BERT embeddings, rerankers)
 
 ---
 
 ## 🧾 Model Card (Summary)
--**Data**: implicit interactions; product text; optional price/images/links
--**Assumptions**: more interactions ≈ stronger preference; text reflects similarity
--**Limitations**: popularity bias; text quality matters; ALS needs minimum interactions
--**Safety/Privacy**: user IDs only; no PII; avoid re-identification
+- **Data**: implicit interactions; product text; optional price/images/links
+- **Assumptions**: more interactions ≈ stronger preference; text reflects similarity
+- **Limitations**: popularity bias; text quality matters; ALS needs minimum interactions
+- **Safety/Privacy**: user IDs only; no PII; avoid re-identification
 See MODEL_CARD.md for full details.
 
 ---
